@@ -1,5 +1,5 @@
 ---
-default.html
+layout: default.html
 ---
 
 # Hello World
