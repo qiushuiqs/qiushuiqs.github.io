@@ -169,7 +169,7 @@ var DashboardComponentComponent = (function () {
         var media = "";
         for (var _i = 0, event_1 = event; _i < event_1.length; _i++) {
             var temp = event_1[_i];
-            if (temp.media.length > 0) {
+            if (temp.media != null) {
                 media = temp.media[0].url;
             }
             else {
